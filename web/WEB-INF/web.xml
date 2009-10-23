@@ -10,6 +10,10 @@
         <servlet-name>ConfigBot</servlet-name>
         <servlet-class>web.ConfigBot</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>MyBotProfil</servlet-name>
+        <servlet-class>MyBotProfil</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>MyBot</servlet-name>
         <url-pattern>/_wave/robot/jsonrpc</url-pattern>
@@ -17,6 +21,10 @@
     <servlet-mapping>
         <servlet-name>ConfigBot</servlet-name>
         <url-pattern>/ConfigBot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MyBotProfil</servlet-name>
+        <url-pattern>/_wave/robot/profile</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

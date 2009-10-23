@@ -8,7 +8,7 @@
     author_email="florian@e-lam.net"
     screenshot="http://embeddy.appspot.com/gadget/screenshot.png"
     thumbnail="http://embeddy.appspot.com/gadget/thumbnail.png"
-    height="80">
+    height="70">
     <Require feature="wave" />
     <Require feature="dynamic-height" />
   </ModulePrefs>
